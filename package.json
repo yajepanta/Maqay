@@ -1,0 +1,23 @@
+{
+  "name": "maqay",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "serve src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yajepanta/Maqay.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yajepanta/Maqay/issues"
+  },
+  "homepage": "https://github.com/yajepanta/Maqay#readme",
+  "dependencies": {
+    "serve": "^11.3.2"
+  }
+}
