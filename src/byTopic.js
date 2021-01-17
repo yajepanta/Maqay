@@ -1,10 +1,11 @@
 const byTopic = (proposal) => {
+    console.log(proposal);
     const view = `
     <div class="container-proposals">
         <div>
-            <span class="container-proposals-title">${proposal.title}</span>
+            <span class="container-proposals-title">${proposal.title.rendered}</span>
             <div class="container-proposals-content">
-                ${proposal.content}
+                ${proposal.content.rendered}
             </div>
             <span class="text-small">Propuestas de:</span>
             <div class="container-proposals-footer">  
