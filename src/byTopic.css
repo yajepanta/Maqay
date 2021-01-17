@@ -1,16 +1,24 @@
 .container-proposals{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width: 300px;
-    height: 250px;
-    background-color: orange;
+    width: 320px;
+    height: 270px;
+    background: url('./Solid_ransa.png');
     color: #ffffff;
-    border-radius: 18px;
-    padding: 25px;
+    border-radius: 20px;
+    margin: 30px;
 }
 
+.container-proposals > div {
+    background: rgb(246, 168, 24, 0.7);
+    border-radius: inherit;
+    width: 280px;
+    height: 230px;
+    padding: 20px;
+    
+}
 .container-proposals-title{
     font-size: 1.2em;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .container-proposals-content{
